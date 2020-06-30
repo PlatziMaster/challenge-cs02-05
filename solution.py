@@ -4,10 +4,10 @@
 class Block:
     """Represents a block in the infinite tape."""
 
-    def __init__(self, data, _next=None):
+    def __init__(self, data):
         """Initialize block."""
         self.data = data
-        self.next = _next
+        self.next = None
 
 
 class Solution:
@@ -15,4 +15,3 @@ class Solution:
 
     def does_it_halt(self, block: Block) -> bool:
         """Return whether Alan's program will halt or not."""
-        return False

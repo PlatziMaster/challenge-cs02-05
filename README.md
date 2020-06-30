@@ -15,6 +15,8 @@ class Block:
 
 **Note**: *next block and initial block can be `None`*.
 
+**Constraints**: The chain of block can be as long as 10^6
+
 ## Examples
 
 For the given *infinite* tape:
